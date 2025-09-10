@@ -1,0 +1,22 @@
+﻿using N2.Builder.IRepositories;
+using N2.Builder.IServices;
+using N2.Core.BaseProvider;
+using N2.Core.Extensions.AutofacManager;
+using N2.Entity.DomainModels;
+
+namespace N2.Builder.Services
+{
+    public partial class Sys_TableInfoService : ServiceBase<Sys_TableInfo, ISys_TableInfoRepository>, ISys_TableInfoService, IDependency
+    {
+        public  Sys_TableInfoService(ISys_TableInfoRepository repository)
+             : base(repository) 
+        { 
+           Init(repository);   
+        }
+        public static ISys_TableInfoService Instance
+        {
+           get { return AutofacContainerModule.GetService<ISys_TableInfoService>(); }
+        }
+    }
+}
+
