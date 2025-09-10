@@ -38,7 +38,7 @@ namespace N2.WebApi.Controllers.OSS
 
              
             ////https://ram.console.aliyun.com/users 用户点击进去里面找
-            // string accessKeyID = "LTAI5t   R4bQnBZqF8ru   Giw123";
+            // string accessKeyID = "LTA I5tR4bQnB ZqF8ruG iw123";
             // string accessKeySecret = "gZUwXdy1mVsPvROfNCsvmVWOeqi123";
 
             //// https://ram.console.aliyun.com/roles/AliyunServiceRoleForSLSAudit 角色点进去找ARN
@@ -85,4 +85,3 @@ namespace N2.WebApi.Controllers.OSS
         }
     }
 }
-
