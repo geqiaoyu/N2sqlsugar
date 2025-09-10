@@ -1,0 +1,5 @@
+42703: column "RequestParameter" of relation "Sys_Log" does not exist
+
+POSITION: 88   at SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   at SqlSugar.InsertableProvider`1.ExecuteCommand()
+   at N2.Core.Services.Logger.Start() in D:\MyProject\NitrogenSys\N2sqlsugar\N2.Core\Services\Logger.cs:line 179Npgsql
