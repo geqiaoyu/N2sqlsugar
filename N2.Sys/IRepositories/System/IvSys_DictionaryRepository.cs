@@ -1,0 +1,21 @@
+﻿/*
+ *Author：jxx
+ *Contact：283591387@qq.com
+ *Date：2018-07-01
+ * 此代码由框架生成，请勿随意更改
+ */
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using N2.Core.BaseProvider;
+using N2.Entity.DomainModels;
+using N2.Core.Extensions.AutofacManager;
+namespace N2.Sys.IRepositories
+{
+    public partial interface IvSys_DictionaryRepository : IDependency,IRepository<vSys_Dictionary>
+    {
+    }
+}
+
